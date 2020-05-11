@@ -79,4 +79,9 @@ author: Johan Hidding
     - self organisation
     - [Rietkerk '04](http://www.uvm.edu/pdodds/files/papers/others/2009/scheffer2009a.pdf)
 
+## Oceanography
+
+- Tracing plastics in the ocean
+    - [van Sebille et al '15](https://iopscience.iop.org/article/10.1088/1748-9326/10/12/124006/pdf)
+
 # That's it (for now)
