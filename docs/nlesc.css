@@ -304,3 +304,6 @@ body {
 
 #bibliography .references {
   text-align: left; }
+
+a {
+  text-decoration: underline; }
