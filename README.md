@@ -1,51 +1,82 @@
 ---
-title: Quick presentation with Reveal.js and Pandoc
+title: A little bit about complex systems
 author: Johan Hidding
 ---
 
-# Reveal.js with NLeSC theme
+# Complex Systems
 
-## What is this?
+## How I got interested
 
-* A template for creating slides with NLeSC look. It uses `pandoc` to produce `reveal.js` slides.
-* Clone this repository at: [github.com/jhidding/nlesc-revealjs](https://github.com/jhidding/nlesc-revealjs)
+- Thesis work into origins of complexity in Universe
+    - [Hidding et al '14](https://ui.adsabs.harvard.edu/link_gateway/2014MNRAS.437.3442H/PUB_PDF)
+- Utrecht Summerschool
+- General curiosity
+    - A generic shift in science
 
-## Prerequisites
+## Cosmology
 
-* make
-* inotifytools
-* git
-* Pandoc
-* for the NLeSC theme: Akkurat fonts (available on NLeSC SharePoint)
+![Cosmic web](img/small_z50_60.png)
 
-## Working on your presentation
+## Complex systems ... and
 
-* First time, running `make` should clone `reveal.js` for you.
-* Run `npm start` from the `reveal.js` directory to serve your presentation.
-* Run `make watch` script to automatically update while editing.
-* Build themes: `npm run build -- css-themes`
+- Physics
+- Biology
+- Economics
+- Meteorology
+* Sociology
 
-## While presenting
+## Boundaries between sciences
 
-* press `s` to show speaker notes
-    - This only works if you present using `npm start`
+- From biochemistry to cellbiology
+- From taxonomy to ecology
+- From psychology to sociology
 
-::: {.notes}
-This is a note right here!
-:::
+## What is a complex system?
 
-## Publish on Github.io
+<ul>
+<li> Simple microscopic rules of interaction </li>
+<li class="fragment"> Emergent large scale behaviour:
 
-* Create a static page with `make pages`
-* Enable `github.io` pages:
-    - Go to Github project settings
-    - Section "GitHub Pages"
-    - set "Source" to "master branch '/docs' folder"
+- scaling laws
+- pattern formation
+- synchronisation
+- self-replication
+- co-evolution
+- non-linear / chaotic
+- robustness
+- path-dependence
+</li></ul>
 
-## Learn more
+## Science
 
-* Study the `Makefile`
-* Create a PDF using [DeckTape](https://github.com/astefanutti/decktape)
-* [Pandoc manual](https://pandoc.org/MANUAL.html)
-* [Reveal.js README](https://github.com/hakimel/reveal.js/blob/master/README.md)
+- Differential equations, (statistical physics)
+- Statistical inference
+- "Science" in a computational universe
+    1. Set ground rules
+    2. Run simulations <span class="fragment" style="color:#00aeef">$\leftarrow$ NLeSC! everyone knows</span>
+    3. Identify large-scale behaviour <span class="fragment" style="color:#00aeef">$\leftarrow$ NLeSC?</span>
+    5. New concepts
+    4. Match with nature, gain insight! <span class="fragment" style="color:#00aeef">$\leftarrow$ NLeSC?</span>
 
+# Increasing complexity
+
+## From physics
+
+<!-- https://arxiv.org/vc/arxiv/papers/1302/1302.4378v1.pdf -->
+- Simple pendulum
+- Double pendulum: chaos
+    - [demo](https://jhidding.github.io/chaotic-pendulum)
+- Dynamics on networks
+    - synchronisation: [metronomes](https://www.youtube.com/watch?v=5v5eBf2KwF8)
+    - lampyridae: [demo](https://ncase.me/fireflies/)
+
+## Ecology
+
+<!-- https://dspace.library.uu.nl/bitstream/handle/1874/25708/rietkerk-04-self+organised.pdf?sequence=2 -->
+- Start out with one-dimensional model (predator/prey type)
+- Add spatial component
+- Pattern formation
+    - self organisation
+    - [Rietkerk '04](http://www.uvm.edu/pdodds/files/papers/others/2009/scheffer2009a.pdf)
+
+# That's it (for now)
